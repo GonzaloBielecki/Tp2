@@ -15,11 +15,15 @@ async function datos(){
         itemUsuario.textContent=`Usuario: ${persona.username}`
         itemEmail.textContent=`Email: ${persona.email}`
         itemWebsite.textContent=`Wedsite: ${persona.website}`
-        contenedor1.appendChild(itemId)
-        contenedor1.appendChild(itemNombre)
-        contenedor1.appendChild(itemUsuario)
-        contenedor1.appendChild(itemEmail)
-        contenedor1.appendChild(itemWebsite)
+        function agregar (item){
+            contenedor1.appendChild(item)
+        }
+        agregar(itemId)
+        agregar(itemNombre)
+        agregar(itemUsuario)
+        agregar(itemEmail)
+        agregar(itemWebsite)
+        
         contenier.appendChild(contenedor1)
         const botonTareas=document.createElement("button")
         botonTareas.textContent="Ver Tareas"
