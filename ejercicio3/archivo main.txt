@@ -1,10 +1,10 @@
 Archivo main
--ultima modificacion: desde rama4conflicto
+-ultima modificacion: desde rama5conflicto
 -se agrego rama1conflicto
 -se agrego rama2conflicto
 -se agrego rama3conflicto
 -se agrego rama4conflicto
--
+-se agrego rama5conflicto
 -
 -
 -
