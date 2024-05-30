@@ -1,9 +1,9 @@
 Archivo main
--ultima modificacion: desde rama2conflicto
--
--
--
--
+-ultima modificacion: desde rama4conflicto
+-se agrego rama1conflicto
+-se agrego rama2conflicto
+-se agrego rama3conflicto
+-se agrego rama4conflicto
 -
 -
 -
