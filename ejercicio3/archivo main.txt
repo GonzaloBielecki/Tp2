@@ -1,5 +1,5 @@
 Archivo main
--ultima modificacion: desde rama main
+-ultima modificacion: desde rama2conflicto
 -
 -
 -
