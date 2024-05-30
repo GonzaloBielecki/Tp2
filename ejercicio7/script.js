@@ -28,7 +28,7 @@ async function datos(){
         const botonTareas=document.createElement("button")
         botonTareas.textContent="Ver Tareas"
         botonTareas.id="botonTareas"
-        contenedor1.appendChild(botonTareas)
+        agregar(botonTareas)
         contenier.appendChild(contenedor1)
         botonTareas.addEventListener("click", async()=>{
             const res =await fetch(`https://jsonplaceholder.typicode.com/todos?userId=${persona.id}`);
@@ -42,7 +42,7 @@ async function datos(){
                     itemTarea.style.color="red"
                 }
                 botonTareas.disabled=true
-                contenedor1.appendChild(itemTarea)
+                agregar(itemTarea)
                 
 
             })
